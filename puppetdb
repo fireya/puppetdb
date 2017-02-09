@@ -13,7 +13,7 @@ USER="puppetdb"
 GROUP="puppetdb"
 INSTALL_DIR="/opt/puppetlabs/server/apps/puppetdb"
 # default /etc/puppetlabs/puppetdb/conf.d
-CONFIG=$PUPPETDB_CONFIG
+CONFIG="/local/conf.d"
 BOOTSTRAP_CONFIG="/etc/puppetlabs/puppetdb/bootstrap.cfg"
 SERVICE_STOP_RETRIES=60
 
