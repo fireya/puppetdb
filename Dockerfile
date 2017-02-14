@@ -41,5 +41,6 @@ COPY docker-entrypoint.sh /
 
 EXPOSE 8080 8081
 
+
 #ENTRYPOINT ["dumb-init", "/docker-entrypoint.sh"]
 #CMD ["foreground"]
