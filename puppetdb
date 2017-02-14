@@ -12,8 +12,7 @@ JAVA_ARGS=$PUPPETDB_JAVA_ARGS
 USER="puppetdb"
 GROUP="puppetdb"
 INSTALL_DIR="/opt/puppetlabs/server/apps/puppetdb"
-# default /etc/puppetlabs/puppetdb/conf.d
-CONFIG="/local/conf.d"
+CONFIG="/etc/puppetlabs/puppetdb/conf.d"
 BOOTSTRAP_CONFIG="/etc/puppetlabs/puppetdb/bootstrap.cfg"
 SERVICE_STOP_RETRIES=60
 
