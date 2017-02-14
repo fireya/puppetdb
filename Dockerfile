@@ -38,7 +38,9 @@ VOLUME /etc/puppetlabs/puppet/ssl/
 # doesn't need a separate volume.
 
 COPY docker-entrypoint.sh /
-RUN chmod 0775 /docker-entrypoint.sh
+RUN chmod 0775 /docker-entrypoint.sh && \
+    chmod 0777 /etc/puppetlabs/puppetdb/conf.d/jetty.ini
+
 
 EXPOSE 8080 8081
 
